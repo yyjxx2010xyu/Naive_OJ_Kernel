@@ -1,0 +1,9 @@
+main.c: In function 'main':
+main.c:8:20: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+    8 |   int* c = (int *) malloc(sizeof(int) * 1000000);
+      |                    ^~~~~~
+main.c:8:20: warning: incompatible implicit declaration of built-in function 'malloc'
+main.c:2:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+    1 | #include <stdio.h>
+  +++ |+#include <stdlib.h>
+    2 | 

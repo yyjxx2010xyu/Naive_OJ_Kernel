@@ -1,0 +1,7 @@
+main.cpp: In function 'int main()':
+main.cpp:9:31: error: expected ';' before 'return'
+    9 |  cout << "\n" << a + b << endl
+      |                               ^
+      |                               ;
+   10 |  return 0;
+      |  ~~~~~~                        
